@@ -1,3 +1,6 @@
+# Program: To print fibonacci series.
+# Author: Dev Mehta
+# Date: 7th Aug 2023.
 number = int(input('Enter the number: '))
 firstTerm = 0
 secondTerm = 1
