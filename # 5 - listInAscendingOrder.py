@@ -1,3 +1,6 @@
+# Program: To sort a list in ascending order.
+# Author: Dev Mehta
+# Date: 7th Aug 2023.
 def asc(inputList):
     sortedList = sorted(inputList)
     return sortedList
