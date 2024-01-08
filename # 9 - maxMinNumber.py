@@ -7,7 +7,7 @@ def swap(x,y) :
     y = t
 def maximum(list,size) :
     max = list[0]
-    for i in range (1,(size-1)) :
+    for i in range (1,size) :
         if( list[i] > max) :
             max = list[i]
         else :
@@ -15,7 +15,7 @@ def maximum(list,size) :
     print("The maximum value in list is " , max)
 def minimum(list,size) :
     min = list[0]
-    for i in range (1,(size-1)) :
+    for i in range (1,size) :
         if( list[i] < min) :
             min = list[i]
         else :
